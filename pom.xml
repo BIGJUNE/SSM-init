@@ -7,6 +7,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>blog Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <!-- 版本信息 -->
+  <properties>
+  	<struts.version>2.5.13</struts.version>
+  	<spring.version>4.3.11.RELEASE</spring.version>
+  	<mybatis.version>3.4.1</mybatis.version>
+  </properties>
+  <!-- 相关依赖 -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -14,6 +21,24 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- struts2依赖包 -->   
+    <!-- spring依赖包 -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+		<version>${spring.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>${spring.version}</version>
+	</dependency>
+	<!-- mybatis依赖包 -->
+	<dependency>
+	    <groupId>org.mybatis</groupId>
+	    <artifactId>mybatis</artifactId>
+	    <version>${mybatis.version}</version>
+	</dependency>   
   </dependencies>
   <build>
     <finalName>blog</finalName>
