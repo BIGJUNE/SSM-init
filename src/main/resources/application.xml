@@ -18,7 +18,5 @@
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="location" value="classpath:jdbc.properties" />
 	</bean>
-	<!-- 引入其他配置文件 -->
-	<import resource="application-mybatis.xml"/>
 
 </beans>

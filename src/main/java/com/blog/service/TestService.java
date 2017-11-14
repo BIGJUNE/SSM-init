@@ -13,7 +13,7 @@ public class TestService{
 	private TestDao testDao;
 	
 	public User getUser(String id) {
-		return testDao.getUser("1");
+		return testDao.getUser(id);
 	}
 		
 }
