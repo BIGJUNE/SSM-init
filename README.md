@@ -1,2 +1,3 @@
-# BLOB
-个人项目
+# SSM-INIT
+
+ Spring,Spring MVC,MyBatis整合
